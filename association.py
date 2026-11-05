@@ -48,7 +48,7 @@ print("FP-Growth Rules:")
 print(rules_fp[['antecedents','consequents','support','confidence','lift']])
 
 
-#visulization 
+#visulization
 
 plt.figure(figsize=(10,6))
 sns.scatterplot(x=rules_fp['antecedents'], y=rules_fp['consequents'], size=rules_fp['lift'], legend=False)
